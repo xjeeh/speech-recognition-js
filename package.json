@@ -1,14 +1,14 @@
 {
-  "name": "plain-js",
+  "name": "speech-recognition-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Speech recognition using SpeechRecognition html API",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && electron build"
   },
-  "author": "",
+  "author": "xJeeh",
   "license": "ISC",
   "dependencies": {
-    "local-web-server": "^3.0.7"
+    "electron": "^24.3.1"
   }
 }
